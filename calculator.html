@@ -1,0 +1,66 @@
+<!---
+  HTML Front Page for the pocket calculator emulator.
+
+  F. G. Ramon Fox (C) 2021
+  
+  See LICENCE for conditions of use.
+  --->
+<!DOCTYPE html>
+<html lange="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <h1>Calculator</h3>
+    
+    <form id="calcForm" name="calcForm">
+      <input id="inputBox" name="inputBox" type="text" value="0">
+      <p id="message" class="resultDisplay">Result = </p>
+	    <div id="result" class="resultDisplay">
+	    0
+	    </div>
+      <br>
+      
+      <div id="keyboard">
+        <input id="key7" name="key7" type="button" class="number" value="7">
+        <input id="key8" name="key8" type="button" class="number" value="8">
+        <input id="key9" name="key9" type="button" class="number" value="9">
+        <input id="keyPlus" name="keyPlus" type="button" class="operation" value="+">
+        <br>
+      
+        <input id="key4" name="key4" type="button" class="number" value="4">
+        <input id="key5" name="key5" type="button" class="number" value="5">
+        <input id="key6" name="key6" type="button" class="number" value="6">
+        <input id="keyMinus" name="keyMinus" type="button" class="operation" value="-">
+        <br>
+      
+        <input id="key1" name="key1" type="button" class="number" value="1">
+        <input id="key2" name="key2" type="button" class="number" value="2">
+        <input id="key3" name="key3" type="button" class="number" value="3">
+        <input id="keyMult" name="keyMult" type="button" class="operation" value="*">
+        <br>
+      
+        <input id="keyNeg" name="keyNeg" type="button" class="sign" value="+/-">
+        <input id="key0" name="key0" type="button" class="number" class="number" value="0">
+        <input id="keyDecPoint" name="keyDecPoint" type="button" class="number" value=".">
+        <input id="keyDiv" name="keyDiv" type="button" class="operation" value="/">
+        <br>
+      
+        <input id="keyReset" name="keyReset" type="button" value="C">
+        <input id="keyPower" name="keyPower" type="button" class="operation" value="^">
+        <input id="keySqrt" name="keySqrt" type="button" class="operation" value="sqrt"
+	       title="Press sqrt and then = to get the square root of the number.">
+        <input id="keyEqual" name="keyEqual" type="button" value="=">
+      </div> <!-- end id=keyboard-->
+
+      <br>
+    </form>
+
+    <script type="text/javascript" src="js/calculator.js"></script>
+    <script type="text/javascript" src="js/calculator-ui.js"></script>
+  </body>
+</html>

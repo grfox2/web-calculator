@@ -1,0 +1,64 @@
+/***
+ * Style Sheets for the JS Calculator Emulator.
+ *
+ * F. G. Ramon Fox (C) 2021
+ * See LICENSE for conditions of use.
+ ***/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+form#calcForm {
+  width: 225px;
+  border: 3px solid;
+  padding: 5px;
+}
+
+input#inputBox {
+  width: 90%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.resultDisplay {
+  font-weight: bold;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.resultDisplay#message {
+  font-size: 90%;
+  margin-bottom: auto;
+}
+
+#result {
+  border: 1px solid;
+}
+
+#keyboard {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 7%;
+}
+
+input[type="button"] {
+  width: 20%;
+  height: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 1%;
+  margin-left: 1%;
+  background-color: #e7e7e7;
+  font-weight: bold;
+}
